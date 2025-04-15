@@ -9,6 +9,10 @@ const EasySteps = () => {
           number="1"
           title="How Startup Framework works?"
           description="The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS."
+          image={undefined}
+          subTitle={undefined}
+          subDescription={undefined}
+          buttonText={undefined}
         />
         <Step
           number="2"
@@ -23,12 +27,16 @@ const EasySteps = () => {
           }
           subTitle="Fell our design"
           subDescription="Startup Design Framework contains components which can easily be integrated into almost any design."
+          buttonText={undefined}
         />
         <Step
           number="3"
           title="Variety of designs"
           description="You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations."
           buttonText="Learn More"
+          image={undefined}
+          subTitle={undefined}
+          subDescription={undefined}
         />
       </div>
     </div>
@@ -43,7 +51,8 @@ const Step = ({
   subTitle,
   subDescription,
   buttonText,
-}) => (
+}: // eslint-disable-next-line @typescript-eslint/no-explicit-any
+any) => (
   <div className="flex items-start space-x-4">
     <div className="flex-shrink-0">
       <div className="w-8 h-8 flex items-center justify-center bg-[#EBEAED] rounded-full">
