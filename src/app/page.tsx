@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="p-4 container">
       <h1 className="text-4xl my-8">Figma to code test</h1>
-      <h2 className="text-3xl my-4">Test 1</h2>
+      <h2 className="text-3xl my-4">Test 1 - full page</h2>
       <p>
         <a
           className="text-blue-900 underline hover:text-blue-950"
@@ -27,7 +27,7 @@ export default function Home() {
       >
         ChatGPT
       </Link>
-      <h2 className="text-3xl my-4">Test 2</h2>
+      <h2 className="text-3xl my-4">Test 2 - full page</h2>
       <p>
         <a
           className="text-blue-900 underline hover:text-blue-950"
@@ -50,7 +50,7 @@ export default function Home() {
       >
         ChatGPT
       </Link>
-      <h2 className="text-3xl my-4">Test 3</h2>
+      <h2 className="text-3xl my-4">Test 3 - section</h2>
       <p>
         <a
           className="text-blue-900 underline hover:text-blue-950"
@@ -69,6 +69,29 @@ export default function Home() {
       <br></br>
       <Link
         href="./test3chatgpt"
+        className="text-blue-900 underline hover:text-blue-950"
+      >
+        ChatGPT
+      </Link>
+      <h2 className="text-3xl my-4">Test 4 - buttons</h2>
+      <p>
+        <a
+          className="text-blue-900 underline hover:text-blue-950"
+          target="_blank"
+          href="https://www.figma.com/design/9jfWgk47tY8IansdQKmCsY/Free-Figma-Website-Landing-Pages---Startup-App--Community-?node-id=7-10075&t=DIp9p6fKLKgVFgKl-1"
+        >
+          Figma
+        </a>
+      </p>
+      <Link
+        href="./test4"
+        className="text-blue-900 underline hover:text-blue-950"
+      >
+        Slingshot
+      </Link>
+      <br></br>
+      <Link
+        href="./test4chatgpt"
         className="text-blue-900 underline hover:text-blue-950"
       >
         ChatGPT
